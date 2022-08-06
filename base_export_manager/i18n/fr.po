@@ -1,22 +1,20 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# 	* base_export_manager
-#
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0+e\n"
+"Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-20 12:59+0000\n"
-"PO-Revision-Date: 2019-05-20 12:59+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
-"Language-Team: French (https://www.transifex.com/oca/teams/23907/fr/)\n"
-"Language: fr\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /[AmetrasIntelligence.server-ux] 13.0/base_export_manager/i18n/base_export_manager.pot\n"
+"X-Crowdin-File-ID: 5690\n"
+"Language: fr_FR\n"
+"PO-Revision-Date: 2022-08-06 22:02\n"
 
 #. module: base_export_manager
 #: model:ir.model.fields,help:base_export_manager.field_ir_exports__model_id
@@ -29,7 +27,7 @@ msgstr ""
 #: code:addons/base_export_manager/static/src/js/base_export_manager.js:0
 #, python-format
 msgid "Export"
-msgstr "Exporter"
+msgstr ""
 
 #. module: base_export_manager
 #: model:ir.model.fields,field_description:base_export_manager.field_ir_model_access__perm_export
@@ -38,9 +36,8 @@ msgstr ""
 
 #. module: base_export_manager
 #: model:ir.model.fields,field_description:base_export_manager.field_ir_exports__name
-#, fuzzy
 msgid "Export Name"
-msgstr "Exporter"
+msgstr ""
 
 #. module: base_export_manager
 #: model_terms:ir.ui.view,arch_db:base_export_manager.ir_exports_form_view
@@ -115,7 +112,7 @@ msgstr ""
 #. module: base_export_manager
 #: model:ir.model,name:base_export_manager.model_ir_http
 msgid "HTTP Routing"
-msgstr ""
+msgstr "Routage HTTP"
 
 #. module: base_export_manager
 #: code:addons/base_export_manager/models/ir_exports_line.py:0
@@ -131,7 +128,7 @@ msgstr ""
 #. module: base_export_manager
 #: model:ir.model.fields,field_description:base_export_manager.field_ir_exports__model_id
 msgid "Model"
-msgstr "Modèle"
+msgstr ""
 
 #. module: base_export_manager
 #: model:ir.model,name:base_export_manager.model_ir_model_access
@@ -183,3 +180,4 @@ msgstr "Utilisateurs"
 #, python-format
 msgid "You must supply a model or resource."
 msgstr ""
+
