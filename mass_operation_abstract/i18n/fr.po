@@ -1,20 +1,20 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-#   * mass_operation_abstract
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-24 12:11+0000\n"
-"PO-Revision-Date: 2020-02-24 12:11+0000\n"
 "Last-Translator: \n"
-"Language-Team: \n"
-"Language: \n"
+"Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /[AmetrasIntelligence.server-ux] 13.0/mass_operation_abstract/i18n/mass_operation_abstract.pot\n"
+"X-Crowdin-File-ID: 5724\n"
+"Language: fr_FR\n"
+"PO-Revision-Date: 2022-08-06 22:02\n"
 
 #. module: mass_operation_abstract
 #: code:addons/mass_operation_abstract/models/mass_operation_mixin.py:0
@@ -50,7 +50,7 @@ msgstr "Groupes autorisés"
 #. module: mass_operation_abstract
 #: model_terms:ir.ui.view,arch_db:mass_operation_abstract.view_mass_operation_wizard_mixin_form
 msgid "Apply"
-msgstr "Appliquer"
+msgstr ""
 
 #. module: mass_operation_abstract
 #: model_terms:ir.ui.view,arch_db:mass_operation_abstract.view_mass_operation_wizard_mixin_form
@@ -61,14 +61,12 @@ msgstr "Annuler"
 #: model:ir.model.fields,field_description:mass_operation_abstract.field_mass_operation_mixin__display_name
 #: model:ir.model.fields,field_description:mass_operation_abstract.field_mass_operation_wizard_mixin__display_name
 msgid "Display Name"
-msgstr "Afficher Nom"
+msgstr "Nom d'affichage"
 
 #. module: mass_operation_abstract
 #: model_terms:ir.ui.view,arch_db:mass_operation_abstract.view_mass_operation_mixin_form
 msgid "Display a button in the sidebar of related model to open a wizard"
-msgstr ""
-"Affichier un bouton dans la barre latérale du module associé, pour ouvrir "
-"l'assistant"
+msgstr "Afficher un bouton dans la barre latérale du modèle associé pour ouvrir un assistant"
 
 #. module: mass_operation_abstract
 #: model:ir.model.fields,field_description:mass_operation_abstract.field_mass_operation_mixin__domain
@@ -84,7 +82,7 @@ msgstr ""
 #. module: mass_operation_abstract
 #: model:ir.model.fields,help:mass_operation_abstract.field_mass_operation_mixin__message
 msgid "If set, this message will be displayed in the wizard."
-msgstr "Si ce champ est défini, le message sera affiché dans l'assistant"
+msgstr "Si ce champ est défini, le message sera affiché dans l'assistant."
 
 #. module: mass_operation_abstract
 #: model:ir.model.fields,field_description:mass_operation_abstract.field_mass_operation_mixin____last_update
@@ -112,7 +110,7 @@ msgstr ""
 #. module: mass_operation_abstract
 #: model:ir.model.fields,field_description:mass_operation_abstract.field_mass_operation_mixin__model_id
 msgid "Model"
-msgstr "Modèle"
+msgstr ""
 
 #. module: mass_operation_abstract
 #: model:ir.model.fields,field_description:mass_operation_abstract.field_mass_operation_mixin__name
@@ -143,7 +141,7 @@ msgstr "Description de l'opération - Attention"
 #. module: mass_operation_abstract
 #: model:ir.model.fields,field_description:mass_operation_abstract.field_mass_operation_wizard_mixin__remaining_item_qty
 msgid "Remaining Item Qty"
-msgstr "Nombre d'éléments restants"
+msgstr "Eléments restants"
 
 #. module: mass_operation_abstract
 #: model_terms:ir.ui.view,arch_db:mass_operation_abstract.view_mass_operation_mixin_form
@@ -153,7 +151,7 @@ msgstr "Retirer le boutton de la barre latérale"
 #. module: mass_operation_abstract
 #: model:ir.model.fields,field_description:mass_operation_abstract.field_mass_operation_wizard_mixin__selected_item_qty
 msgid "Selected Item Qty"
-msgstr "Nombre d'éléments sélectionnés"
+msgstr "Eléments sélectionnés"
 
 #. module: mass_operation_abstract
 #: model_terms:ir.ui.view,arch_db:mass_operation_abstract.view_mass_operation_mixin_form
@@ -179,21 +177,14 @@ msgstr "Le traitement sera réalisé sur les %d éléments sélectionnés."
 #. module: mass_operation_abstract
 #: code:addons/mass_operation_abstract/wizard/mass_operation_wizard_mixin.py:0
 #, python-format
-msgid ""
-"You have selected %d items that can not be processed. Only %d items will be "
-"processed."
-msgstr ""
-"Vous avez sélectionné %d éléments qui ne peuvent pas être traités. Seulement "
-"%d éléments vont être traités."
+msgid "You have selected %d items that can not be processed. Only %d items will be processed."
+msgstr "Vous avez sélectionné %d éléments qui ne peuvent pas être traités. Seulement %d éléments vont être traités."
 
 #. module: mass_operation_abstract
 #: code:addons/mass_operation_abstract/wizard/mass_operation_wizard_mixin.py:0
 #, python-format
-msgid ""
-"there is no more element that corresponds to the rules of the domain.\n"
+msgid "there is no more element that corresponds to the rules of the domain.\n"
 " Please refresh your list and try to select again the items."
-msgstr ""
-"Il n'y a pas d'élément qui correspond aux règles d'accès définis par le "
-"domaine.\n"
-"Veuillez rafraichir la liste des éléments, et sélectionner des éléments de "
-"nouveau"
+msgstr "Il n'y a pas d'élément qui correspond aux règles d'accès définis par le domaine.\n"
+"Veuillez rafraichir la liste des éléments, et sélectionner des éléments de nouveau"
+
