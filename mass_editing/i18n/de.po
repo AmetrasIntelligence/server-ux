@@ -1,29 +1,24 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# * mass_editing
-#
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-17 21:08+0000\n"
-"PO-Revision-Date: 2017-05-17 21:08+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
-"Language-Team: German (https://www.transifex.com/oca/teams/23907/de/)\n"
-"Language: de\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: /[AmetrasIntelligence.server-ux] 13.0/mass_editing/i18n/mass_editing.pot\n"
+"X-Crowdin-File-ID: 5722\n"
+"Language: de_DE\n"
+"PO-Revision-Date: 2022-08-06 22:02\n"
 
 #. module: mass_editing
 #: model_terms:ir.ui.view,arch_db:mass_editing.view_mass_editing_form
-msgid ""
-"<b>WARNING</b>: Take into account that adding a field with a domain, and not "
-"including the fields of such domain in this operation definition, will lead "
-"to an error when trying to perform it. Make sure you include them."
+msgid "<b>WARNING</b>: Take into account that adding a field with a domain, and not including the fields of such domain in this operation definition, will lead to an error when trying to perform it. Make sure you include them."
 msgstr ""
 
 #. module: mass_editing
@@ -35,20 +30,19 @@ msgstr ""
 #: code:addons/mass_editing/wizard/mass_editing_wizard.py:0
 #, python-format
 msgid "Add"
-msgstr ""
+msgstr "hinzufügen"
 
 #. module: mass_editing
 #: model:ir.model.fields,help:mass_editing.field_mass_editing_line__widget_option
-msgid ""
-"Add widget text that will be used to display the field in the wizard. "
-"Example :\n"
+msgid "Add widget text that will be used to display the field in the wizard. Example :\n"
 "'many2many_tags', 'selection'"
-msgstr ""
+msgstr "Fügen Sie den Widget-Text hinzu, der für die Anzeige des Feldes im Assistenten verwendet wird. Beispiel:\n"
+"'many2many_tags', 'Auswahl'"
 
 #. module: mass_editing
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing__groups_id
 msgid "Allowed Groups"
-msgstr ""
+msgstr "Erlaubte Gruppen"
 
 #. module: mass_editing
 #: model:ir.model.fields,help:mass_editing.field_mass_editing_line__apply_domain
@@ -77,7 +71,7 @@ msgstr "Erstellt von"
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing_line__create_date
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing_wizard__create_date
 msgid "Created on"
-msgstr "Erstellt am:"
+msgstr "Erstellt am"
 
 #. module: mass_editing
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing__display_name
@@ -93,9 +87,8 @@ msgstr ""
 
 #. module: mass_editing
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing_line__field_id
-#, fuzzy
 msgid "Field"
-msgstr "Felder"
+msgstr "Feld"
 
 #. module: mass_editing
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing__id
@@ -133,7 +126,7 @@ msgstr "Zuletzt aktualisiert am"
 #. module: mass_editing
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing__line_ids
 msgid "Line"
-msgstr ""
+msgstr "Zeile"
 
 #. module: mass_editing
 #: model:ir.actions.act_window,name:mass_editing.action_mass_editing
@@ -141,19 +134,18 @@ msgstr ""
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing_line__mass_editing_id
 #: model:ir.ui.menu,name:mass_editing.menu_mass_editing
 msgid "Mass Editing"
-msgstr "Massenverarbeitung"
+msgstr ""
 
 #. module: mass_editing
 #: model:ir.model,name:mass_editing.model_mass_editing_line
-#, fuzzy
 msgid "Mass Editing Line"
-msgstr "Massenverarbeitung"
+msgstr ""
 
 #. module: mass_editing
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing__message
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing_wizard__message
 msgid "Message"
-msgstr ""
+msgstr "Nachricht"
 
 #. module: mass_editing
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing__model_id
@@ -188,9 +180,10 @@ msgstr ""
 
 #. module: mass_editing
 #: code:addons/mass_editing/wizard/mass_editing_wizard.py:0
+#: code:addons/mass_editing/wizard/mass_editing_wizard.py:0
 #, python-format
 msgid "Remove"
-msgstr ""
+msgstr "entfernen"
 
 #. module: mass_editing
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing_wizard__selected_item_qty
@@ -200,9 +193,10 @@ msgstr ""
 #. module: mass_editing
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing_line__sequence
 msgid "Sequence"
-msgstr ""
+msgstr "Sequenz"
 
 #. module: mass_editing
+#: code:addons/mass_editing/wizard/mass_editing_wizard.py:0
 #: code:addons/mass_editing/wizard/mass_editing_wizard.py:0
 #, python-format
 msgid "Set"
@@ -210,9 +204,8 @@ msgstr ""
 
 #. module: mass_editing
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing__ref_ir_act_window_id
-#, fuzzy
 msgid "Sidebar Action"
-msgstr "Seitenleisten-Schaltfläche hinzufügen"
+msgstr "Aktion in der Seitenleiste"
 
 #. module: mass_editing
 #: model:ir.model.fields,field_description:mass_editing.field_mass_editing_line__widget_option
@@ -224,25 +217,3 @@ msgstr ""
 msgid "Wizard for mass edition"
 msgstr ""
 
-#~ msgid "%s (copy)"
-#~ msgstr "%s (Kopie)"
-
-#~ msgid "Advanced"
-#~ msgstr "Erweitert"
-
-#~ msgid ""
-#~ "Display a button in the sidebar of related documents to open a "
-#~ "composition wizard"
-#~ msgstr "Sidebar-Button für verknüpfte Dokumente anzeigen "
-
-#~ msgid "Mass Editing (%s)"
-#~ msgstr "Massenverarbeitung (%s)"
-
-#~ msgid "Model List"
-#~ msgstr "Modell-Liste"
-
-#~ msgid "Name must be unique!"
-#~ msgstr "Name muss eindeutig sein!"
-
-#~ msgid "Object"
-#~ msgstr "Objekt"
