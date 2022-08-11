@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.server-ux] 13.0/base_substate/i18n/base_substate.pot\n"
 "X-Crowdin-File-ID: 5698\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 22:03\n"
+"PO-Revision-Date: 2022-08-11 10:47\n"
 
 #. module: base_substate
 #: model:ir.model.fields,field_description:base_substate.field_base_substate__active
@@ -31,7 +31,7 @@ msgstr ""
 #. module: base_substate
 #: model_terms:ir.ui.view,arch_db:base_substate.base_substate_view_form
 msgid "Archived"
-msgstr ""
+msgstr "Archiviert"
 
 #. module: base_substate
 #: model:ir.actions.act_window,name:base_substate.act_open_base_substate_view
