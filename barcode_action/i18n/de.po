@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.server-ux] 13.0/barcode_action/i18n/barcode_action.pot\n"
 "X-Crowdin-File-ID: 5688\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 22:02\n"
+"PO-Revision-Date: 2022-08-11 15:08\n"
 
 #. module: barcode_action
 #: model:ir.model,name:barcode_action.model_barcode_action
@@ -130,7 +130,7 @@ msgstr ""
 #. module: barcode_action
 #: model:ir.model.fields.selection,name:barcode_action.selection__barcode_action__state__waiting
 msgid "Waiting"
-msgstr ""
+msgstr "Wartend"
 
 #. module: barcode_action
 #: model:ir.model.fields.selection,name:barcode_action.selection__barcode_action__state__warning
