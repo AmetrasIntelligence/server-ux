@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.server-ux] 13.0/barcode_action/i18n/barcode_action.pot\n"
 "X-Crowdin-File-ID: 5688\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-11 15:08\n"
+"PO-Revision-Date: 2022-08-17 15:45\n"
 
 #. module: barcode_action
 #: model:ir.model,name:barcode_action.model_barcode_action
@@ -120,7 +120,7 @@ msgstr "Status"
 #. module: barcode_action
 #: model:ir.model.fields,field_description:barcode_action.field_barcode_action__status
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #. module: barcode_action
 #: model:ir.model.fields,help:barcode_action.field_barcode_action___barcode_scanned
