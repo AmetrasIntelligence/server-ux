@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.server-ux] 13.0/document_quick_access/i18n/document_quick_access.pot\n"
 "X-Crowdin-File-ID: 5716\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 22:02\n"
+"PO-Revision-Date: 2022-08-17 11:07\n"
 
 #. module: document_quick_access
 #: model:ir.model.fields,field_description:document_quick_access.field_document_quick_access_rule__active
@@ -115,5 +115,5 @@ msgstr ""
 #. module: document_quick_access
 #: model:ir.model.fields.selection,name:document_quick_access.selection__document_quick_access_rule__barcode_format__standard
 msgid "Standard"
-msgstr ""
+msgstr "Standard"
 
